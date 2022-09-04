@@ -1,12 +1,14 @@
 create table tb_frase_motivadora (
-	id int auto_increment,
-    frase varchar(200) not null,
-    primary key (id)
+id int auto_increment,
+frase varchar(200) not null,
+primary key (id)
 );
 
 insert into tb_frase_motivadora(frase)
-values('Mais firme que prego na areia'),('Firme e forte que nem maria mole')
-,('Frase de caminhoneiro: Me aperta na subida que acertamos na descida'),
-('Cão com mais de um dono morre de fome'), ('Não adiante só ser, tem que aparecer');
+values('Comece onde você está, use o que você tem e faça o que você pode. Arthur Ashe'),
+('Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.Roberto Shinyashiki'),
+('Devíamos ser ensinados a não esperar por inspiração para começar algo. Ação sempre gera inspiração. Inspiração raramente gera ação.Frank Tibolt'),
+('As conquistas dependem de 50% de inspiração, criatividade e sonhos, e 50% de disciplina, trabalho árduo e determinação. São duas pernas que devem caminhar juntas.Augusto Cury'), 
+('Se deseja voar como as águias, não se rodeie de galinhas.');
 
 select * from tb_frase_motivadora;
